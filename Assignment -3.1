@@ -1,0 +1,16 @@
+In [1]:
+hrs = raw_input("Enter Hours:")
+h = float(hrs)
+rph = float(raw_input("Enter rate per hour"))
+
+if hrs > 40:
+    print 40*rph + (h-40)*rph*1.5
+else:
+    print h*rph
+    
+input:
+Enter Hours:45
+Enter rate per hour10.5
+
+output:
+498.75
